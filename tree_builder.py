@@ -117,3 +117,11 @@ def company_directory():
             break
         else:
             print("❌ Invalid option. Try again.")
+
+'''
+First I made the node class and then I went into making the TeamTree class. The teamtree class contains the insert method and also the printtree method. The insert method allows the user to insert a manager and
+employees at different levels, being able to add to either the left or the right. For the printtree method, it starts out by printing out the manager at the first level, then it goes down by the levels and indents
+as employees are added. With this example we can see Jordan is at the top with Riley and Taylor as subordinates and then Riley has Morgan and Dana as their subordinates. This could continue if we continued to insert
+nodes but I just tested out this simple example to ensure that everything was working properly. First there are the insert statements that define where everyone goes in the tree, it is finished out with the final 
+printtree statement to make sure that everything turned out properly.
+'''
